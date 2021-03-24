@@ -1,0 +1,151 @@
+a:link a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: color;
+    color: #ffffff;
+}
+
+body {
+    background-color: #c1fcfc8e;
+    color: #006868;
+    font-family: "Helvetica Neue", Helvetica, Verdana, sans-serif;
+}
+
+.page-content {
+    padding-top: 20px;
+    width: 95%;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+    background-color: #7eb1b1;
+}
+
+.footer {
+    height: 75px;
+}
+
+body img{
+    display: block;
+    margin: 10px auto 5px auto;
+}
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    background-color: #0c331b;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+    display: block;
+    padding: 15px 30px;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover,
+.menu a:active,
+.menu a:focus {
+    background-color: #0c331b;
+}
+
+p {
+    text-align: justify;
+}
+
+h1 {
+    background-color: #d9ece9;
+    color: #006868;
+    font-size: 50px;
+    font-weight: bold;
+    border-bottom: 5px solid #d9ece9;
+    border-top: 5px solid #d9ece9;
+    border-left: 3px solid #d9ece9;
+    text-align: center;
+}
+
+h2 {
+    background-color: #bededa;
+    color: #006868;
+    font-size: smaller;
+    font-weight: bold;
+    border-bottom: 5px solid #bededa;
+    border-top: 5px solid #bededa;
+    border-left: 3px solid #bededa;
+}
+.page {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.stred {text-align: center;}
+
+.content {
+    min-width: 300px
+}
+
+.content h1 {
+    margin-top: 0px;
+}
+
+.left-menu {
+    width: auto;
+    padding: 0px 30px;
+    text-align: center;
+}
+
+.autor {
+    font-style: italic;
+    text-align: right;
+}
+
+.padding-bottom-20 {
+    padding-bottom: 20px;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 20px 0px;
+    padding: 0px;
+}
+
+.menu ul li {
+    padding: 3px 0px;
+    position: relative;
+}
+
+.menu ul li a {
+    padding-left: 15px;
+    color: #006868;
+    display: block;
+    text-align: left;
+    font-weight: bolder;
+    background: #d9ece9;
+}
+
+.menu ul li a:before {
+    width: 12px;
+    height: 20px;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 0px;
+    background: url('../img/arrow.png') no-repeat center;
+}
+
+.btn-agatha,
+.btn-agatha:hover {
+    color: #bededa;
+    background: #006868;
+}
